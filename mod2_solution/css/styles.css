@@ -1,0 +1,93 @@
+/*                             Universal Selector */
+* {
+  box-sizing: border-box;
+}
+
+/*                              Tag Selector */
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.75rem;
+  color: #404040;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #fff;
+  margin: 0;
+}
+p {
+  font-family: "Open Sans";
+  line-height: 1.5;
+  color: #404040;
+  margin-bottom: 0;
+}
+
+/*                              Class & ID Selector */
+.top-header {
+
+  text-align: center;
+  padding: 1.5% 0;
+}
+
+.row {
+  width: 100%;
+  padding: 1.2rem;
+}
+
+.inner-box {
+  margin: .8rem .8rem 1.5rem;;
+  border: 1px solid;
+  position: relative;
+  background-color: #E5EAFC;
+}
+
+.head-text {
+  position: absolute;
+  right: 0;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: .3rem 2rem;
+
+}
+
+#head1 {
+  background-color: #e69000;
+}
+#head2 {
+  background-color: #03588C;
+}
+#head3 {
+  background-color: #ff4c68;
+}
+
+.body-text {
+  text-align: left;
+  padding: 2.2rem .4rem .4rem 2rem;
+}
+
+
+/*                                  media query */
+
+/*                                  Tablet Version */
+@media (min-width: 768px) {
+
+  .col-tab-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-tab-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/*                                  Desktop Version */
+@media (min-width: 992px) {
+  .col-com-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
